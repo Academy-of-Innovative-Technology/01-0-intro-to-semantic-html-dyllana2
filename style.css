@@ -17,3 +17,7 @@ article {
 footer {
     border: 5px solid yellow;
 }
+img {
+    width: 400px;
+    height: 300px;
+}

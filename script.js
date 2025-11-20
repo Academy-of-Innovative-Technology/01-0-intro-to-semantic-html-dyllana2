@@ -14,16 +14,16 @@ let posts = [
     {
         Image: "https://media.gettyimages.com/id/3270228/photo/sheik-mujibur-rahman-bangladesh-president-in-london-in-1972-he-was-killed-in-a-dawn-coup-in-1975.jpg?s=612x612&w=gi&k=20&c=ZT0BbUivkPylC_DKlfZD6EheeLSXqGPXIxQ0Qh7D444=",
         Title: "Sheikh Mujibur Rahman",
-        Post: "ç∫ç∂´∂∫ç∫∂©∑ ∫´∫∫ç∫ √∑∂∫∆ç ç∫´ˆ∑´¥∂ ∂ƒ˙©ƒ ç∫ç´˙"
+        Post: "তিনি ছিলেন বর্তমান বাংলাদেশের প্রথম রাষ্ট্রপতি।"
     }
 
     ];
 
     posts.forEach(function(post){
         main.insertAdjacentHTML('beforeend', `
-           <img src = ${post.Image}>
-           ${post.Title}
-           ${post.Post}
+           <img src="${post.Image}">
+           <h3>${post.Title}</h3>
+           <p>${post.Post}</p>
         `);
     });
     
